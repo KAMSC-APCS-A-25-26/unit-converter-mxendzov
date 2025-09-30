@@ -7,12 +7,12 @@ public class DistanceConverter {
         double miles, kilometers;
         boolean run = true;
         while (run) {
-            System.out.println("Choose conversion direction: ");
+            System.out.println("\nChoose conversion direction: ");
             System.out.println("1. Convert Miles to Kilometers");
             System.out.println("2. Convert Kilometers to Miles");
             System.out.println("3. Exit");
 
-            System.out.print("Enter your choice (1, 2, or 3): ");
+            System.out.print("\nEnter your choice (1, 2, or 3): ");
             choice = sc.nextInt();
             switch (choice) {
                 case 1:
@@ -22,7 +22,7 @@ public class DistanceConverter {
                     System.out.println("Miles: " + miles);
                     miles *= 1.60935;
                     kilometers = miles;
-                    System.out.println("Kilometers: " + kilometers);
+                    System.out.println("km Kilometers: " + kilometers);
                     break;
 
                 case 2:
