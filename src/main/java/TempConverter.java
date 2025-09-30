@@ -7,12 +7,12 @@ public class TempConverter {
                 double fahrenheit, celsius;
                 boolean run = true;
                 while (run) {
-                    System.out.println("Choose conversion direction: ");
+                    System.out.println("\nChoose conversion direction: ");
                     System.out.println("1. Convert Fahrenheit to Celsius");
                     System.out.println("2. Convert Celsius to Fahrenheit");
                     System.out.println("3. Exit");
 
-                    System.out.print("Enter your choice (1, 2, or 3): ");
+                    System.out.print("\nEnter your choice (1, 2, or 3): ");
                     choice = sc.nextInt();
                     switch (choice) {
                         case 1:
