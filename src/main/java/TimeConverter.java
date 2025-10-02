@@ -10,7 +10,7 @@ public class TimeConverter {
 
         while(run)
         {
-            System.out.println("Convert time to total seconds ");
+            System.out.println("\nConvert time to total seconds ");
             System.out.print("\nEnter hours: ");
             hours = sc.nextInt();
             System.out.print("Enter minutes: ");
