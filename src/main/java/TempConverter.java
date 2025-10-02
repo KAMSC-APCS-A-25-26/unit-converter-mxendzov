@@ -40,7 +40,7 @@ public class TempConverter {
                             break;
 
                         default:
-                            System.out.println("Invalid choice. Please try again.");
+                            System.out.println("Invalid choice. \nPlease enter 1, 2, or 3.");
                             break;
                     }
                 } System.out.println("Goodbye!");

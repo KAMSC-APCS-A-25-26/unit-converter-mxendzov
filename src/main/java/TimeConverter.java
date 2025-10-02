@@ -29,7 +29,7 @@ public class TimeConverter {
             System.out.println(seconds +" seconds  = " + seconds + " seconds");
             System.out.println("Total: " + time + " seconds");
 
-            System.out.print("\nDo you want to convert another time (y/n): ");
+            System.out.print("\nDo you want to convert another time? (y/n): ");
             sc.nextLine();
             String choice = sc.nextLine();
             if (Objects.equals(choice, "n"))

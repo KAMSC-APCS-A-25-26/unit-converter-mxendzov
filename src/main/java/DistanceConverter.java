@@ -29,7 +29,7 @@ public class DistanceConverter {
                     System.out.print("Enter distance in kilometers: ");
                     kilometers = sc.nextDouble();
                     System.out.println("\nConversion Results:");
-                    System.out.println("Kilometers " + kilometers);
+                    System.out.println("Kilometers: " + kilometers);
                     kilometers /= 1.60935;
                     miles = kilometers;
                     System.out.println("Miles: " + miles);
@@ -40,7 +40,7 @@ public class DistanceConverter {
                     break;
 
                 default:
-                    System.out.println("Invalid choice. Please try again.");
+                    System.out.println("Invalid choice. Please enter 1, 2, or 3.");
                     break;
             }
         } System.out.println("Goodbye!");
